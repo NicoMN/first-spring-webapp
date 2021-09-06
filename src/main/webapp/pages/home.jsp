@@ -8,7 +8,7 @@
 </head>
 <body>
 
-Welcome, ${name}!
+Welcome, ${name}
 
 </body>
 </html>
