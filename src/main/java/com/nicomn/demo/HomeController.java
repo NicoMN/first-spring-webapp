@@ -13,10 +13,10 @@ import org.springframework.web.servlet.ModelAndView;
 public class HomeController {
 
 	@RequestMapping("home")
-	public ModelAndView showHome(@RequestParam("name") String myName) {
+	public ModelAndView showHome(Alien alien) {
 		
 		ModelAndView mv = new ModelAndView();
-		mv.addObject("name", myName);
+		mv.addObject("objalien", alien);
 		mv.setViewName("home");
 		
 		return mv;

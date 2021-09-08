@@ -8,7 +8,7 @@
 </head>
 <body>
 
-Welcome, ${name}
+Welcome, ID: ${objalien.aid} , Name: ${objalien.aname} , Lang: ${objalien.lang}
 
 </body>
 </html>
